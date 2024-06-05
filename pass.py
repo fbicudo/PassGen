@@ -1,4 +1,3 @@
-from itertools import permutations
 import time
 
 def replace(originalLowCase, originalCapital, replacement, originalList):
