@@ -61,7 +61,7 @@ def doVariations(originalList):
 
 if __name__ == "__main__":
 
-    origin_pwd = "marfrig"
+    origin_pwd = "password"
     variations = []
 
     temp = []
