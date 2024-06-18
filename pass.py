@@ -45,13 +45,15 @@ def doVariations(originalList):
     originalList = replace("a", "A", "@", originalList)
     originalList = replace("a", "A", "4", originalList)
     originalList = replace("e", "E", "3", originalList)
-    originalList = replace("i", "I", "1", originalList)
+    originalList = replace("i", "I", "!", originalList)
+    originalList = replace("i", "I", "|", originalList)
+    originalList = replace("l", "L", "1", originalList)
+    originalList = replace("c", "C", "(", originalList)
     originalList = replace("o", "O", "0", originalList)
-    # originalList = replace("u", "U", "V", originalList)
     originalList = replace("t", "T", "7", originalList)
     originalList = replace("s", "S", "5", originalList)
     originalList = replace("s", "S", "$", originalList)
-    originalList = replace("g", "G", "6", originalList)
+    originalList = replace("g", "G", "9", originalList)
     originalList = capitalize(originalList)
 
     return(originalList)
@@ -59,7 +61,7 @@ def doVariations(originalList):
 
 if __name__ == "__main__":
 
-    origin_pwd = "password"
+    origin_pwd = "marfrig"
     variations = []
 
     temp = []
